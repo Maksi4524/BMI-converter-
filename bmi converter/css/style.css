@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  font-family: sans-serif;
+}
+h1{
+display: flex;
+justify-content:center;
+}
+.container{
+margin-left: 40em;
+padding: 1em 0 3.5em;
+}
+.age{
+  width: 4vw;
+}
+.container1{
+  margin-left: 36.5em;
+}
+.zebra{
+  display: flex;
+  margin: 2em 0 0 10em;
+}
+.placeToConvert{
+  justify-content: center;
+}
+.list{
+  margin: 5em 0 0 40em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
